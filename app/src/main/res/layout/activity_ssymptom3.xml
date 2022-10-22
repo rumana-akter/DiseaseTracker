@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/g6"
+    tools:context=".symptom">
+
+    <Button
+        android:id="@+id/out"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button_rounded"
+        android:text="Sign Out"
+        android:textColor="#FFFFFF"
+        android:layout_marginLeft="300dp"
+        android:textSize="12dp"  />
+
+    <TextView
+        android:layout_width="384dp"
+        android:layout_height="103dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="60dp"
+        android:gravity="center|fill"
+        android:text="Search your symptoms : "
+        android:textColor="#FFFF"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+    <RadioGroup
+        android:id="@+id/radioGroup2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="-30dp"
+        android:orientation="vertical"
+        android:showDividers="beginning|middle|end">
+
+
+        <RadioButton
+            android:id="@+id/cosymptomE"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text=""
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/cosymptomF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text=""
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/cosymptomG"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text=""
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/cosymptomH"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text=""
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/done3"
+        android:layout_width="match_parent"
+        android:layout_height="192dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="69dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/plus2"
+        android:gravity="center"
+        android:padding="10dp"
+        android:paddingBottom="25dp"
+        android:text="DONE"
+        android:textColor="#FFFF"
+        android:textSize="22sp" />
+</LinearLayout>

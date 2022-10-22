@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">DiseaseTracker</string>
+    <string name="userIdString">Email</string>
+    <string name="userPasswordString">Password</string>
+    <string name="userNameString">User Name</string>
+    <string name="userPasswordConfirmString">Confirm Password</string>
+    <string name="userAgeString">Age</string>
+    <string name="googleSignIn">"gs"</string>
+
+</resources>

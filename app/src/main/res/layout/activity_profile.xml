@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/g3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ProfileActivity">
+    <Button
+        android:id="@+id/out"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button_rounded"
+        android:text="Sign Out"
+        android:textColor="#FFFFFF"
+        android:layout_marginLeft="300dp"
+        android:textSize="12dp"  />
+
+
+    <TextView
+        android:layout_width="183dp"
+        android:layout_height="187dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/sym"
+
+        android:gravity="center"
+        android:textSize="20dp" />
+
+
+
+    <Button
+        android:id="@+id/sb"
+        android:layout_width="150dp"
+    android:background="@drawable/button_rounded"
+        android:layout_height="38dp"
+        android:layout_marginLeft="240dp"
+        android:layout_marginTop="00dp"
+        android:textColor="#FFFF"
+        android:text="Search Your Disease"
+        android:textSize="10dp" />
+
+
+
+
+    <ListView
+        android:layout_marginTop="40dp"
+        android:id="@+id/listView"
+    android:layout_marginLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="#FFFFC107"
+        android:dividerHeight="2dp"
+        android:listSelector="#E91E63"
+
+        />
+
+
+
+
+</LinearLayout>

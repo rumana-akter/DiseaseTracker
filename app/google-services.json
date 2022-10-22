@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "83795672123",
+    "firebase_url": "https://diseasetracker-573f9.firebaseio.com",
+    "project_id": "diseasetracker-573f9",
+    "storage_bucket": "diseasetracker-573f9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:83795672123:android:535b34111653dd40e2f01e",
+        "android_client_info": {
+          "package_name": "com.example.diseasetracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "83795672123-65ikjqgprad8e2pk3qp6400g1o1mc0d2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.diseasetracker",
+            "certificate_hash": "42da1f2fb82486b063014462957b4b532eda2ba4"
+          }
+        },
+        {
+          "client_id": "83795672123-ni3snojldu7ackbd9vsu51mn9rsnnc60.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCn_DErWARx1GKEAjtZKctjHrMeHgsYIts"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "83795672123-ni3snojldu7ackbd9vsu51mn9rsnnc60.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

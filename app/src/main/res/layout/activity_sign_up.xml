@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:padding="30dp"
+    android:layout_height="match_parent"
+    android:background="@drawable/write"
+    tools:context=".signUpActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+
+        android:text="Create a new account"
+        android:textStyle="bold"
+        android:textSize="35dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="80dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/usernameText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:textColor="@color/colorBlack"
+            android:hint="@string/userNameString"
+            android:textSize="20dp"
+            android:layout_marginBottom="12dp"
+
+            />
+
+
+
+
+
+
+
+        <EditText
+            android:id="@+id/userIdText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/colorBlack"
+            android:textSize="20dp"
+            android:layout_marginBottom="12dp"
+            android:hint="@string/userIdString"
+
+            />
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorBlack"
+            android:hint="@string/userPasswordString"
+            android:textSize="20dp"
+            android:layout_marginBottom="12dp"
+            android:inputType="textPassword" />
+
+        <EditText
+            android:id="@+id/confirmPasswordText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorBlack"
+            android:hint="@string/userPasswordConfirmString"
+            android:inputType="textPassword" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:id="@+id/radioGroupId"
+            android:textSize="20dp"
+            android:layout_marginBottom="12dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gender"
+                android:textSize="20dp"
+                />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/maleId"
+                android:text="Male"
+                android:textSize="20dp"
+                />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:id="@+id/femaleId"
+                android:text="Female"
+                android:textSize="20sp"
+                />
+        </RadioGroup>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorBlack"
+            android:inputType="numberDecimal"
+            android:hint="@string/userAgeString"
+            android:textSize="20dp"
+            android:layout_marginBottom="12dp"
+            android:id="@+id/ageText" />
+        <Button
+            android:id="@+id/register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_rounded"
+            android:text="REGISTER"
+            android:textColor="#FFFFFF"
+            android:textSize="22sp" />
+        <TextView
+            android:id="@+id/signIntext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="15dp"
+            android:text="Are you already registered?Sign In"
+            android:textSize="20sp"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>
